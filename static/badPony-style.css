@@ -1,0 +1,204 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin:0;
+  width:100%;
+  max-width: 100%;
+  height:100vh;
+  background-color: #a29799;
+  color: white;
+  transition: background-color .5s;
+  overflow-x: hidden;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Karla', sans-serif;
+}
+/*header{
+	width:100%;
+	background:#1d1f20;
+	height:60px;
+	line-height:60px;
+}*/
+
+.socialIcon{
+margin: 0;
+padding:10px 2% 0px 2%;
+}
+
+#menu{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/Users/kedronabbott/Desktop/Bad Pony/bad-pony/static/banner-images/deficiency-press1_1_orig.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-top: 0px;
+  border-top-width: 0px;
+}
+
+.banner {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .banner {
+        width: 50%;
+    }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+#mySidenav{
+  width: 0;
+}
+
+.navOpen #mySidenav{
+  width: 250px;
+}
+
+#everything {
+  padding: 0;
+  margin-right: 0px;
+  transition: 0.5s
+}
+
+#everything.navOpen{
+  margin-right: 250px;
+  transition: 0.5s
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.viewTestimonial{
+  background-color: #434444;
+  text-align: center;
+  padding-top: .5%;
+}
+
+#testimonialList{
+  background-color: #434444;/*#135150;*/
+  height: 2%;
+  width: 100%;
+  margin: 0;
+  padding: 2%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.testimonialSelect{
+  margin-left: 10%;
+  margin-right: 10%;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid #FFFFFF;
+  color: white;
+}
+
+.wordz{
+  word-wrap: break-word;
+  white-space: pre-line;
+  text-align: left;
+}
+a:link {
+   color:inherit;
+}
+
+.quote{
+  margin: 0 auto;
+}
+
+div#testimonialList span:hover {
+    background-color: #777;
+}
