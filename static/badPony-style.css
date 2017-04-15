@@ -1,3 +1,8 @@
+@import url('http://weloveiconfonts.com/api/?family=entypo');
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
 body {
   font-family: 'Noto Sans', sans-serif;
   margin:0;
@@ -36,9 +41,27 @@ p{
 	line-height:60px;
 }*/
 
+#socialBar{
+  width: 100%;
+  height: 75px;
+  background-color: #434444;
+}
+
+
+
 .socialIcon{
-margin: 0;
-padding:10px 2% 0px 2%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 1% 4%;
+  line-height: 50px;
+  font-family: Entypo;
+  font-size: 24px;
+  text-align: center;
+  color: #555;
+  border-radius: 10px;
+  background: #eee;
+  overflow: hidden;
 }
 
 #menu{
@@ -159,6 +182,20 @@ padding:10px 2% 0px 2%;
   .sidenav a {font-size: 18px;}
 }
 
+
+#welcome{
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/Users/kedronabbott/Desktop/Bad Pony/bad-pony/static/banner-images/BadPony-800x520.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+}
+
+#welcome h1{
+  margin-top: 0;
+}
+
 .viewTestimonial{
   background-color: #434444;
   text-align: center;
@@ -201,4 +238,8 @@ a:link {
 
 div#testimonialList span:hover {
     background-color: #777;
+}
+
+div#socialBar div:hover{
+    background-color: #9FAC49;
 }
