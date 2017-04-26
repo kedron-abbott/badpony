@@ -9,9 +9,26 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /badPony-style\.css
+  static_files: static/badPony-style.css
+  upload: static/badPony-style\.css
+
+- url: /static
+  static_dir: static
+
+- url: /badPony-Scripts\.js
+  static_files: static/scripts/badPony-Scripts.js
+  upload: static/scripts/badPony-Scripts\.js
+
+- url: /parallax\.js
+  static_files: static/scripts/parallax.js
+  upload: static/scripts/parallax\.js
+
 - url: .*
   script: main.app
 
 libraries:
 - name: webapp2
   version: "2.5.2"
+- name: jinja2
+  version: latest

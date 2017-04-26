@@ -14,11 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import webapp2
+import webapp2, jinja2, json, logging
+from google.appengine.ext import ndb
+from webapp2_extras import sessions
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello world!')
+        indexTemplate = env.get_template('badPony-home.html')
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
