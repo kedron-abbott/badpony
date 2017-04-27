@@ -102,11 +102,12 @@ p{
 .header {
   height: 100vh;
   width: 100%;
-  background-image: url("/Users/kedronabbott/Desktop/Bad Pony/bad-pony/static/banner-images/deficiency-press1_1_orig.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("banner-images/deficiency-press1_1_orig.jpg");
   background-size: cover;
+  /*background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  margin: 0;
   padding-bottom: 25px;
   padding-top: 25px;
   margin-top: 0px;
@@ -183,17 +184,27 @@ p{
   .sidenav a {font-size: 18px;}
 }
 
-#welcome{
+/*#welcome{
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('/Users/kedronabbott/Desktop/Bad Pony/bad-pony/static/banner-images/BadPony-800x520.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center center;
-	min-width:900px;
-	margin: 0;
+  background-position: center;
   height: 70vh;
+}*/
+#welcome{
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('/Users/kedronabbott/Desktop/Bad Pony/bad-pony/static/banner-images/BadPony-800x520.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+position: static;
+width: 100%;
+margin: 0;
+height: 50%;
 }
 
 
@@ -220,7 +231,7 @@ p{
 
 #testimonialList{
   background-color: #434444;/*#135150;*/
-  height: 2%;
+  height: 3%;
   width: 100%;
   margin: 0;
   padding: 2%;
