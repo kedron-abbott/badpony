@@ -283,8 +283,15 @@ text-justify: distribute-all-lines;
   white-space: pre-line;
   text-align: left;
 }
+
+.testimonialHeading{
+  word-wrap: break-word;
+  white-space: pre-line;
+  text-align: center;
+}
 a:link {
-   color:inherit;
+  color:inherit;
+  text-decoration: none;
 }
 
 .quote{
@@ -299,6 +306,116 @@ div#socialBar div:hover{
     background-color: #9FAC49;
 }
 
-.test{
-  height: 70vh;
+#tourWrapper{
+  text-align: center;
+
+}
+
+.tourSelect{
+  margin: 2% 1%;
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  width: 33.333%;
+  background-color:rgba(36, 35, 35, 0.7);
+}
+
+#Event1 .tourImage{
+  padding: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("https://d29vij1s2h2tll.cloudfront.net/~/media/images/taco-bell/products/default/22130_tacos_doubledeckertacosupreme_300x300.jpg?w=300&h=300");
+}
+
+#Event2 .tourImage{
+  padding: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("https://i.ytimg.com/vi/oAqm9hE7jrs/maxresdefault.jpg");
+}
+
+#Event3 .tourImage{
+  padding: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("http://www.mysticpizza.com/admin/resources/pizza-pepperoni-w857h456.jpg");
+}
+
+#Event4 .tourImage{
+  padding: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("http://fodmapliving.com/wp-content/uploads/2013/01/buffalo-wings.jpg");
+}
+
+.tourText{
+  text-align: left;
+}
+
+.tourText h1,h2,h3,h4{
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.tourTickets{
+  background-color: gray;
+  width: 100%;
+  height: 25%;
+}
+
+.buyTicket:hover {
+ cursor:pointer;
+}
+.buyTicket {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 5%;
+  border: 0px;
+  color: white;
+  background-color: transparent;
+
+}
+
+.freeEntry{
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 5%;
+  border: 0px;
+  color: white;
+  background-color: transparent;
+}
+.buyTicket:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #9FAC49;/*#cb40b7;*/
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.buyTicket:hover:before, .buyTicket:focus:before, .buyTicket:active:before {
+  right: 0;
 }
