@@ -320,36 +320,56 @@ div#socialBar div:hover{
   background-color:rgba(36, 35, 35, 0.7);
 }
 
-#Event1 .tourImage{
+.tourImage{
   padding: 50%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("https://d29vij1s2h2tll.cloudfront.net/~/media/images/taco-bell/products/default/22130_tacos_doubledeckertacosupreme_300x300.jpg?w=300&h=300");
 }
 
-#Event2 .tourImage{
-  padding: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("https://i.ytimg.com/vi/oAqm9hE7jrs/maxresdefault.jpg");
+#Event1{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/North-Hobart-0950.jpeg");
 }
 
-#Event3 .tourImage{
-  padding: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("http://www.mysticpizza.com/admin/resources/pizza-pepperoni-w857h456.jpg");
+#Event2{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/CityMag-The-Grace-Emily-5-850x510-550x330.jpeg");
 }
 
-#Event4 .tourImage{
-  padding: 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: linear-gradient(rgba(112, 66, 20, 0.6), rgba(0, 0, 0, 0.6)),url("http://fodmapliving.com/wp-content/uploads/2013/01/buffalo-wings.jpg");
+#Event3{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/album4686_35812_yah-yahs-bar-melbourne-bars-fitzroy-hidden-laneway-cocktail-top-best-good-002.jpeg");
+}
+
+#Event4{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/beach-hotel.jpeg");
+}
+
+#Event5{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/nightquarter-night-quarter-nightquarter-market-gol1.jpeg");
+}
+
+#Event6{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/BlackBearLodge2_20151124_wide.jpeg");
+}
+
+#Event7{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("http://fodmapliving.com/wp-content/uploads/2013/01/buffalo-wings.jpg");
+}
+
+#Event8{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/Moonshine Manly.jpeg");
+}
+
+#Event9{
+  background-image: linear-gradient(rgba(112, 66, 20, 0.6),
+  rgba(0, 0, 0, 0.6)),url("tour-images/Chippendale Hotel.jpeg");
 }
 
 .tourText{
