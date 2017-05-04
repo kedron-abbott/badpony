@@ -14,13 +14,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import webapp2, jinja2, json, logging
-from google.appengine.ext import ndb
-from webapp2_extras import sessions
+import jinja2
+import os
+import webapp2
+
+template_dir = os.path.join(os.path.dirname(__file__), 'static')
+jinja_environment = jinja2.Environment(
+  loader=jinja2.FileSystemLoader(template_dir))
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        indexTemplate = env.get_template('badPony-home.html')
+        template = jinja_environment.get_template('badPony-home.html')
+        self.response.out.write(template.render())
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)

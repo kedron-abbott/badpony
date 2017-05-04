@@ -20,10 +20,6 @@ handlers:
   static_files: static/scripts/badPony-Scripts.js
   upload: static/scripts/badPony-Scripts\.js
 
-- url: /parallax\.js
-  static_files: static/scripts/parallax.js
-  upload: static/scripts/parallax\.js
-
 - url: .*
   script: main.app
 

@@ -10,6 +10,7 @@ body {
   max-width: 100%;
   height:100vh;
   background-color: #a29799;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
   color: white;
   transition: background-color .5s;
   overflow-x: hidden;
