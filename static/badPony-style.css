@@ -44,7 +44,7 @@ p{
 }*/
 
 #socialBar{
-  width: 100%;
+  width: 50%;
   height: 75px;
   background-color: #434444;
   text-align: justify;
@@ -68,13 +68,13 @@ text-justify: distribute-all-lines;
   color: #555;
   border-radius: 10px;
   background: #eee;
-  overflow: scroll;
+  overflow: none;
   zoom: 1
   vertical-align: top;
 }
 
 .stretch {
-  width: 100%;
+  width: 50%;
   display: inline-block;
   font-size: 0;
   line-height: 0
